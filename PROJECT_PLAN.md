@@ -1,25 +1,20 @@
 # Projektplan & Analyse-Struktur
 
-Dieses Dokument beschreibt die logische Vorgehensweise für unser Statistik-Projekt.
-**Wichtig:** Wir arbeiten die Vorlesungen nicht stur ab, sondern folgen dem "Data Science Lifecycle". Jede Entscheidung wird statistisch begründet.
-
----
-
 ## Daten-Struktur (Input & Output)
 
-Damit wir sauber arbeiten, unterscheiden wir zwischen Rohdaten und prozessierten Daten.
+Damit wir sauber arbeiten, unterscheiden wir zwischen **Rohdaten** und **prozessierten Daten**.
 
 1.  **Input (Rohdaten):**
     * `data/OECD.WISE.WDP...csv`: Der unveränderte Original-Datensatz.
 2.  **Output (Bereinigt aus Notebook 01):**
-    * `data/oecd_full_time_series.csv`: Enthält alle Jahre. Nutzen wir **NUR** für Verlaufs-Grafiken (Liniendiagramme).
-    * `data/oecd_snapshot_latest.csv`: Enthält nur das aktuellste Jahr pro Land. Nutzen wir für **ALLE statistischen Tests und Vergleiche**, um die Unabhängigkeit der Daten zu wahren (Vermeidung von Pseudoreplikation).
+    * **`data/oecd_full_time_series.csv`**: Enthält alle Jahre. Nutzen wir **NUR** für Verlaufs-Grafiken (Liniendiagramme).
+    * **`data/oecd_snapshot_latest.csv`**: Enthält nur das aktuellste Jahr pro Land. Nutzen wir für **ALLE statistischen Tests und Vergleiche**, um die Unabhängigkeit der Daten zu wahren (Vermeidung von Pseudoreplikation).
 
 ---
 
 ## Notebook-Struktur
 
-Wir teilen die Analyse in 4 logische Schritte auf:
+Wir teilen die Analyse in 4 logische Schritte (Notebooks) auf:
 
 ### 1. Data Preparation (`01_Data_Preparation.ipynb`)
 **Ziel:** Vom "Raw Data" zum "Clean Data".
