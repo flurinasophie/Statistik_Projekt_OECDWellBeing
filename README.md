@@ -2,6 +2,7 @@
 
 Dieses Repository enthält unsere Statistik-Projektarbeit mit Datenanalyse und statistischen Auswertungen auf dem Datensatz der OECD Well-Being Indicators.
 
+Bei der 
 ## Voraussetzungen
 Python 3.8 oder höher
 
