@@ -56,3 +56,4 @@ Wir teilen die Analyse in 4 logische Schritte (Notebooks) auf:
 
 ##  Reminder für jedes Notebook
 Die **richtige** CSV (`snapshot` für Analyse, `time_series` für Zeit-Plots) laden!!
+
