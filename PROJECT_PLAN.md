@@ -43,14 +43,36 @@ Wir teilen die Analyse in 4 logische Schritte (Notebooks) auf:
 * **Wichtig:** Wir nutzen hier nur `oecd_snapshot_latest.csv`.
 * **Begründung:** Wir wollen wissen, ob Länder mit höherem BIP auch sicherer sind (Querschnittsanalyse).
 
-### 4. Hypothesentests & Inferenz (`04_Hypothesis_Testing.ipynb`)
-**Ziel:** Wissenschaftliche Beantwortung unserer Forschungsfragen.
+### 4. Induktive Statistik & Gruppenvergleiche (04_Inference_and_Groups.ipynb)
+**Ziel:** Wir prüfen, ob die beobachteten Unterschiede in den Daten statistisch signifikant sind oder auf Zufall beruhen.
 * **Inhalte (VL5 - VL9):**
-    * **2 Gruppen vergleichen:** z.B. "Fühlen sich Männer sicherer als Frauen?" (t-Test oder Mann-Whitney U).
-    * **Mehr als 2 Gruppen:** z.B. "Unterscheidet sich das Sicherheitsgefühl zwischen Altersgruppen (Jung/Mittel/Alt)?" (ANOVA oder Kruskal-Wallis).
-    * **Post-Hoc Tests:** Wenn ANOVA signifikant, wer unterscheidet sich genau?
-    * **Multiple Testing:** Korrektur der p-Werte (Bonferroni/FDR), da wir mehrere Tests machen.
-* **Begründung:** Wir wollen beweisen, dass Unterschiede nicht nur Zufall sind. Hier ist die Unabhängigkeit der Beobachtungen (Snapshot-Daten) am wichtigsten!
+    * Verteilungs-Check (VL5): Formale Prüfung auf Normalverteilung (Shapiro-Wilk Test), da dies die Voraussetzung für viele Tests ist.
+    * Punktschätzung & Intervalle (VL6): Berechnung von Konfidenzintervallen (z.B. 95%) für Mittelwerte. Interpretation: "Wo liegt der wahre Wert der Population?"
+    * Gruppenvergleiche (VL7-9): Durchführung von Hypothesentests.
+        * 2 Gruppen: t-Test (parametrisch) oder Mann-Whitney U (nicht-parametrisch).
+        * Mehr als 2 Gruppen: ANOVA oder Kruskal-Wallis Test.
+* **Wichtig:** Wir nutzen hier strikt oecd_snapshot_latest.csv.
+* **Begründung:** Bevor wir komplexe Modelle bauen, müssen wir sicherstellen, dass Gruppenunterschiede (z.B. "Europa vs. Rest der Welt") nicht zufällig zustande kamen. Die Unabhängigkeit der Beobachtungen (Snapshot) ist hier zwingend erforderlich.
+
+### 5. Regressionsanalyse & Modellierung (05_Regression_and_Modelling.ipynb)
+**Ziel:** Wir analysieren die Stärke von Zusammenhängen und versuchen, Variablen durch andere zu erklären (Ursache-Wirkung-Modellierung).
+* **Inhalte (VL10):**
+    * Einfache Lineare Regression: Wie stark beeinflusst eine unabhängige Variable (z.B. GDP) die abhängige Variable (z.B. Life Satisfaction)? Interpretation von R^2 und Koeffizienten.
+    * Multiple Regression: Hinzufügen weiterer Prädiktoren, um die Erklärungskraft des Modells zu verbessern.
+    * Residuenanalyse: Überprüfung der Modellannahmen (Homoskedastizität, Normalverteilung der Fehler), um die Güte des Modells zu beurteilen.
+* **Wichtig:** Wir nutzen hier oecd_snapshot_latest.csv, um strukturelle Zusammenhänge im Querschnitt zu finden.
+* **Begründung:** Korrelation (aus NB 03) ist keine Kausalität. Die Regression erlaubt es uns, den Einfluss von Faktoren zu quantifizieren und Vorhersagen zu treffen.
+
+### 6. Zeitreihenanalyse & Trends (06_Time_Series_Analysis.ipynb)
+**Ziel:** Analyse der zeitlichen Entwicklung der Indikatoren.
+* **Inhalte (VL2 & VL10):**
+    * Visualisierung: Liniendiagramme für ausgewählte Länder/Gruppen über alle verfügbaren Jahre.
+    * Trend-Berechnung: Nutzung der Regression mit der "Zeit" (Jahr) als unabhängige Variable, um Steigungen (Trends) zu berechnen.
+    * Vergleich: Welche Länder haben sich positiv/negativ entwickelt?
+
+* **Wichtig:** Hier (und nur hier) nutzen wir oecd_full_time_series.csv!
+* **Begründung:** Die bisherigen Analysen waren Momentaufnahmen. Da Wohlbefinden dynamisch ist, müssen wir prüfen, ob sich die Zustände verbessern oder verschlechtern.
+
 
 ---
 
