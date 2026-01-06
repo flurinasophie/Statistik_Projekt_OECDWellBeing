@@ -20,7 +20,7 @@ Der OECD-Well-Being-Datensatz eignet sich besonders gut, da er sowohl **Zeitreih
 | `04_Induktive_Statistik_und_Gruppenvergleiche.ipynb` | Hypothesentests und Gruppenvergleiche zwischen Ländern bzw. Ländergruppen. Begründete Auswahl parametrischer und nicht-parametrischer Tests. |
 | `05_Regressionsanalyse_und_Modellierung.ipynb` | Lineare Regressionsmodelle zur Erklärung ausgewählter Indikatoren. Diskussion von Modellannahmen, Gütemaßen und Grenzen der Interpretierbarkeit. |
 | `06_Zeitreihenanalyse_und_Trends.ipynb` | Zeitreihenanalysen auf Basis der Full-Time-Series-Daten. Trendanalyse und Diskussion der zeitlichen Entwicklung einzelner Indikatoren. |
-| `07_Logistische_Regression.ipynb` & `07_Multiple_Regression_und_Panelmodelle.ipynb` | Erweiterte Modellierungsansätze: logistische Regression für binäre Zielgrößen sowie multiple Regression und Einführung in Panelmodelle. Diskussion der methodischen Voraussetzungen und Einschränkungen. |
+| `07_Multiple_Regression_und_Panelmodelle.ipynb` | Erweiterte Modellierungsansätze: logistische Regression für binäre Zielgrößen sowie multiple Regression und Einführung in Panelmodelle. Diskussion der methodischen Voraussetzungen und Einschränkungen. |
 
 ---
 
