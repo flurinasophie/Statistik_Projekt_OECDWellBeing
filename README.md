@@ -1,6 +1,6 @@
 # Statistikprojekt: OECD Well-Being Indicators
 
-## Project Overview
+## Projektübersicht
 
 Unser Projekt analysiert ausgewählte **OECD Well-Being Indicators**, um Unterschiede und Zusammenhänge zwischen Ländern systematisch zu untersuchen. Ziel ist es, anhand eines realen, komplexen Datensatzes den gesamten im Kurs behandelten Statistikstoff nachvollziehbar anzuwenden – von der Datenaufbereitung über deskriptive Statistik und Inferenz bis hin zu Regressions- und Panelmodellen.
 
@@ -10,7 +10,7 @@ Der OECD-Well-Being-Datensatz eignet sich besonders gut, da er sowohl **Zeitreih
 
 ---
 
-## Repository Structure
+## Projekt Aufbau
 
 | Notebook | Inhalt |
 |----------|--------|
@@ -21,8 +21,6 @@ Der OECD-Well-Being-Datensatz eignet sich besonders gut, da er sowohl **Zeitreih
 | `05_Regressionsanalyse_und_Modellierung.ipynb` | Lineare Regressionsmodelle zur Erklärung ausgewählter Indikatoren. Diskussion von Modellannahmen, Gütemaßen und Grenzen der Interpretierbarkeit. |
 | `06_Zeitreihenanalyse_und_Trends.ipynb` | Zeitreihenanalysen auf Basis der Full-Time-Series-Daten. Trendanalyse und Diskussion der zeitlichen Entwicklung einzelner Indikatoren. |
 | `07_Logistische_Regression.ipynb` & `07_Multiple_Regression_und_Panelmodelle.ipynb` | Erweiterte Modellierungsansätze: logistische Regression für binäre Zielgrößen sowie multiple Regression und Einführung in Panelmodelle. Diskussion der methodischen Voraussetzungen und Einschränkungen. |
-
-Zusätzlich liegen alle Notebooks im Ordner `Project_HTML` auch als **HTML-Dateien** vor, um die vollständigen Outputs unabhängig von der Ausführungsumgebung einsehen zu können.
 
 ---
 
@@ -73,7 +71,7 @@ Die zentralen Erkenntnisse liegen nicht nur in einzelnen numerischen Ergebnissen
 
 ---
 
-## Methodology & Tech Stack
+## Methodik & Tech Stack
 
 **Programmiersprache**
 - Python 3
@@ -95,7 +93,7 @@ Alle Methoden werden **kontextualisiert, begründet und kritisch reflektiert**, 
 
 ---
 
-## Usage
+## Verwendung
 
 1. Repository klonen oder herunterladen  
 2. Notebooks in der angegebenen Reihenfolge öffnen  
@@ -119,7 +117,7 @@ Insgesamt hat uns das Projekt dabei geholfen, Statistik als analytisches Werkzeu
 
 ---
 
-## Administrative Information
+## Administrative Informationen
 
 **Autorinnen**
 - **Annabel Morgenstern**
@@ -137,7 +135,7 @@ Die Arbeit erfolgte stark **kollaborativ**:
 
 ---
 
-## AI Usage Declaration
+## Erklärung zur Nutzung von KI
 
 Im Rahmen dieses Projekts haben wir Unterstützung von KI punktuell eingesetzt, um das Verständnis statistischer Konzepte zu vertiefen, methodische Entscheidungen zu reflektieren sowie bei der Fehlersuche und Interpretation von Analyseergebnissen zu unterstützen.  
 
@@ -145,7 +143,7 @@ Die Nutzung beschränkte sich auf **konzeptionelle, erklärende und technische H
 
 Die folgenden Prompts geben eine **realistische und sinngemäße Auswahl** der verwendeten KI-Anfragen wieder:
 
-| Kontext / Aufgabe | Verwendeter Prompt (sinngemäß) |
+| Kontext | Verwendeter Prompt (sinngemäß) |
 | :--- | :--- |
 | **Datenstruktur & Designentscheidung** | *„Welche Probleme entstehen, wenn Zeitreihendaten fälschlich als unabhängige Beobachtungen behandelt werden, und wie lässt sich Pseudoreplikation methodisch vermeiden?“* |
 | **Deskriptive Statistik (Notebook 02)** | *„Welche Konsequenzen hat eine rechtsschiefe Verteilung für die Wahl von Lagemaßen und Streuungsmaßen?“* |
