@@ -98,7 +98,7 @@ Alle Methoden werden **kontextualisiert, begründet und kritisch reflektiert**, 
 1. Repository klonen oder herunterladen  
 2. Notebooks in der angegebenen Reihenfolge öffnen  
 
-Für eine vollständige Nachvollziehbarkeit empfehlen wir, die Notebooks **sequenziell zu lesen**, da spätere Analysen explizit auf früheren Ergebnissen aufbauen.
+Die Erstellung eines passenden .venvs haben wir in einer Markdown Datei festgehalten. Für eine vollständige Nachvollziehbarkeit empfehlen wir, die Notebooks **sequenziell zu lesen**, da spätere Analysen explizit auf früheren Ergebnissen aufbauen.
 
 ---
 ## Persönliche Reflexion
@@ -123,15 +123,18 @@ Insgesamt hat uns das Projekt dabei geholfen, Statistik als analytisches Werkzeu
 - **Annabel Morgenstern**
 - **Flurina Baumbach**
 
-**Arbeitsweise**
+**Arbeitsweise und Aufteilung der Aufgaben**
 
 Nach etwa der Hälfte der Vorlesungen haben wir das Projekt **grundlegend restrukturiert**. Ursprünglich haben wir die Notebooks strikt entlang einzelner Vorlesungen aufgebaut, was sich jedoch als methodisch unübersichtlich erwies. Daraufhin haben wir die Struktur auf einen **logischen statistischen Analyseprozess** umgestellt.
 
-Die Arbeit erfolgte stark **kollaborativ**:
-- Flurina erstellte den Projektplan und übernahm die konzeptionelle Struktur.
-- Annabel begann parallel mit der Überarbeitung und Vereinheitlichung der Notebooks.
-- Jedes Notebook wurde nach Fertigstellung jeweils von der anderen Person überprüft (Inhalt, Logik, Konsistenz).
-- Die meisten Arbeitsschritte wurden parallel und gemeinsam (am selben Ort) durchgeführt.
+Wir haben an unserem Projekt das meinste in Zusammenarbeit gemacht. Wir beide waren in alle Projektphasen eingebunden und haben uns regelmäßig gegenseitig überprüft und ergänzt. Um Transparenz zu schaffen, sind die Beiträge im Folgenden strukturiert zusammengefasst. Die Aufteilung spiegelt den tatsächlichen Arbeitsprozess wider und schließt gemeinsame sowie überlappende Aufgaben ausdrücklich mit ein.
+
+| Name | Beitrag |
+| :--- | :--- |
+| **Flurina** | Entwicklung des initialen Projektkonzepts und des Projektplans; konzeptionelle Strukturierung der Analysepipeline; methodische Designentscheidungen (z. B. Aufteilung in Full Time Series und Snapshot-Datensatz); Koordination der Restrukturierung des Projekts; Mitarbeit an allen Notebooks; Review und methodischer Check der Analysen. |
+| **Annabel** | Technische Umsetzung und Überarbeitung der Jupyter Notebooks; Implementierung der statistischen Analysen (Deskriptive Statistik, Korrelationen, Hypothesentests, Regressionen); Weiterentwicklung der Code-Struktur; Mitarbeit an allen Notebooks; inhaltliche und technische Reviews der Ergebnisse. |
+| **Gemeinsam** | Interpretation und Diskussion der Ergebnisse; kontinuierliche gegenseitige Kontrolle und Überarbeitung der Notebooks; Restrukturierung des Projekts nach der Hälfte der Vorlesungen; Erstellung der Dokumentation (README, Projektbeschreibung, Fazit); Qualitätssicherung und finale Abstimmung. |
+
 
 ---
 
@@ -139,9 +142,7 @@ Die Arbeit erfolgte stark **kollaborativ**:
 
 Im Rahmen dieses Projekts haben wir Unterstützung von KI punktuell eingesetzt, um das Verständnis statistischer Konzepte zu vertiefen, methodische Entscheidungen zu reflektieren sowie bei der Fehlersuche und Interpretation von Analyseergebnissen zu unterstützen.  
 
-Die Nutzung beschränkte sich auf **konzeptionelle, erklärende und technische Hilfestellung**. Die Auswahl der Methoden, die Implementierung der Analysen, die Interpretation der Ergebnisse sowie die schriftliche Ausarbeitung erfolgten eigenständig durch die Projektautorinnen.
-
-Die folgenden Prompts geben eine **realistische und sinngemäße Auswahl** der verwendeten KI-Anfragen wieder:
+Die Nutzung haben wir auf  **konzeptionelle, erklärende und technische Hilfestellung** beschränkt.
 
 | Kontext | Verwendeter Prompt (sinngemäß) |
 | :--- | :--- |
